@@ -1,0 +1,40 @@
+.hh {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btnn {
+
+    width: auto;
+}
+
+.btnn1 {
+
+    display: none;
+}
+
+.card {
+
+    width: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .hh {
+         
+        justify-content: space-between;
+
+    }
+    .btnn {
+
+        display: none;
+    }
+
+    .btnn1 {
+
+       display: block;
+       margin: auto;
+    }
+
+  }
