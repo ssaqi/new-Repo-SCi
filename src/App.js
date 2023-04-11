@@ -9,6 +9,7 @@ import Dashhboard from './Components/Dashboard/Dashhboard';
 import Home from './Components/Home/Home';
 import Dashboard from './Components/DashboardFeatures/Dashboard';
 import Account from './Components/DashboardFeatures/Account';
+import Pkg from './Components/Package details/Pkg';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path='/Dashboard' element={<Dashhboard/>}/>
       <Route path='/DashboardFeatures' element={<Dashboard/>}/>
       <Route path='/account' element={<Account/>}/>
+      <Route path='/Packagedetails' element={<Pkg/>}/>  
      </Routes>
    
      </>
