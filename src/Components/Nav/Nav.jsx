@@ -43,7 +43,13 @@ export default function Nav() {
         <li className="nav-item">
           <a className="nav-link " style={{color:"black"}}>Contact Us</a>
         </li>
-    
+
+       <li className="nav-item">
+        <Link to="/Packagedetails">
+          <a className="nav-link " style={{color:"black"}}>Package details</a>
+          </Link>
+        </li>
+
         <li className="nav-item">
           <Link to="/sign">
          <button className='btn btn-primary' style={{backgroundColor: "#36bbf7"}}>SING UP</button>
